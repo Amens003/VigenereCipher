@@ -1,0 +1,11 @@
+textarea, input, select{
+    border-radius: 5px;
+}
+select{
+    display: block;
+    margin: 10px;
+}
+.container{
+    float: left;
+    width: 40%;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Шифр Виженера</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Шифр Виженера</h1>
+
+  <div class="container">
+    <label for="text">Текст:</label><br>
+    <textarea id="text" rows="5" cols="50">ZQPWSW WTRI EPLR DAPVTE</textarea><br><br>
+
+    <label for="key">Ключ:</label><br>
+    <textarea type="text" id="key">HELL</textarea><br><br>
+
+    <label for="language">Язык:</label><br>
+    <select id="language">
+      <option value="en">Английский</option>
+      <option value="ru">Русский</option>
+    </select><br><br>
+
+    <button id="encoding">Зашифровать</button>
+    <button id="decoding">Расшифровать</button><br><br>
+
+    <label for="result">Результат:</label><br>
+    <textarea id="result" rows="5" cols="50"></textarea>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
